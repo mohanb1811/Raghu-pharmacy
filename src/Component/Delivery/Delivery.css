@@ -1,0 +1,56 @@
+.delivery-section{
+    background:#fff;
+    margin-top:-40px;
+    position:relative;
+    z-index:99;
+}
+
+.delivery-card{
+    background:linear-gradient(135deg,#0F766E,#11998e);
+    color:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+}
+
+.delivery-card h2{
+    font-size:38px;
+    font-weight:800;
+}
+
+.delivery-card p{
+    font-size:18px;
+    line-height:32px;
+    margin:20px 0;
+}
+
+.delivery-info{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.delivery-info span{
+    background:white;
+    color:#0F766E;
+    padding:12px 20px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.delivery-btn{
+    background:#FFD54F;
+    color:#000;
+    text-decoration:none;
+    padding:18px 35px;
+    border-radius:50px;
+    font-size:20px;
+    font-weight:bold;
+    display:inline-block;
+    transition:.3s;
+}
+
+.delivery-btn:hover{
+    background:white;
+    transform:scale(1.05);
+}
