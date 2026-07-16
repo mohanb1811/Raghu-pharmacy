@@ -1,6 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import HomePage from "./Component/Homepage/Homepage";
 import Products from "./Component/Products/Products";
 import About from "./Component/About/About";
 import Reviews from "./Component/Reviews/Reviews";
@@ -9,12 +7,13 @@ import Footer from "./Component/Footer/Footer";
 import Categories from "./Component/Categories/Categories";
 import Raghu from "./Component/Raghu/Raghu";
 import Delivery from "./Component/Delivery/Delivery";
+import HomePages from "./Component/HomePages/HomePages";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Homepage/>} />
+         <Route path="/" element={<HomePages />} />
         <Route path="/about-raghu" element={<Raghu />} />
         <Route path="/about" element={<About />} />
         <Route path="/review" element={<Reviews />} />

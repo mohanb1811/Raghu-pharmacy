@@ -4,12 +4,12 @@ import Delivery from "../Delivery/Delivery";
 import Layout from "../Layout";
 import Raghu from "../Raghu/Raghu";
 import Reviews from "../Reviews/Reviews";
-import "./Homepage.css";
+import "./HomePages.css";
 import pharmacist from "../../assets/tablets.jpg";
 import veterinary from "../../assets/animal.webp";
 import petcare from "../../assets/diaper.jpg";
 
-function HomePage() {
+function HomePages() {
 
   const whatsappMessage = `💊 Welcome to Raghu Pharmacy
 
@@ -160,4 +160,4 @@ Raghu Pharmacy`;
   );
 }
 
-export default HomePage;
+export default HomePages;
